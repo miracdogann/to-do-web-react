@@ -1,0 +1,9 @@
+.container-app {
+  background-color: rgb(235, 168, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: 100vh;
+}

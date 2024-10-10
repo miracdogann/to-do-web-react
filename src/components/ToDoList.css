@@ -1,0 +1,44 @@
+
+/* ******************* */
+.todo-item {
+    display: flex;
+    background-color: rgb(250, 250, 249);
+    margin: 20px;
+    width: auto;
+    margin-left: -10px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-item:hover {
+    background-color: #f1f1f1; /* Üzerine gelindiğinde arka plan rengi */
+    border-radius: 15px;
+  }
+  
+  .todo-text {
+    text-align: left;
+    padding: 5px;
+    flex-grow: 1;
+    text-decoration: none;
+  }
+  
+  .todo-text.completed {
+    text-decoration: line-through; /* Tamamlanmışsa çizgi */
+  }
+  
+  .todo-button {
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 7px;
+  }
+  
+  .todo-button.completed {
+    background-color: red; /* Tamamlanmışsa kırmızı */
+  }
